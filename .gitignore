@@ -1,2 +1,4 @@
 /isos/
 /boxes/
+*.iso
+*.box
