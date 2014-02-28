@@ -7,7 +7,7 @@ VBoxManage createvm --name ${NAME} --ostype ${TYPE} --register
 VBoxManage modifyvm ${NAME} \
     --vram 12 \
     --accelerate3d off \
-    --memory 613 \
+    --memory 512 \
     --usb off \
     --audio none \
     --boot1 disk --boot2 dvd --boot3 none --boot4 none \
